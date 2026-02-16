@@ -93,7 +93,7 @@ export function ContactSection() {
             </div>
             <div>
               <h3 className="font-sans text-lg font-bold text-foreground">Hours</h3>
-              <p className="mt-1 font-body text-sm text-muted-foreground">Fri - Sun</p>
+              <p className="mt-1 font-body text-sm text-muted-foreground">We’re Open Every Day</p>
               <p className="font-body text-sm text-muted-foreground">11:00 AM - 9:00 PM</p>
             </div>
           </div>
