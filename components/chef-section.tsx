@@ -46,7 +46,7 @@ export function ChefSection() {
             <div className="relative flex-shrink-0">
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-2 border-primary/30 md:h-56 md:w-56">
                 <Image
-                  src="/images/hb.png"
+                  src="/images/hydb.png"
                   alt="Mohammed - Founder of Proper Hyderabadis"
                   fill
                   className="object-cover"

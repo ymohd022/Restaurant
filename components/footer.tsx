@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-16">
         <div className="flex flex-col items-center gap-8 text-center">
           <Image
-            src="/images/hb.png"
+            src="/images/hydb.png"
             alt="Proper Hyderabadis Logo"
             width={120}
             height={120}

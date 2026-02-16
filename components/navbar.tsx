@@ -35,7 +35,7 @@ export function Navbar() {
       <div className="mx-auto max-w-7xl px-4 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-3">
           <Image
-            src="/images/hb.png"
+            src="/images/hydb.png"
             alt="Proper Hyderabadis Logo"
             width={60}
             height={60}

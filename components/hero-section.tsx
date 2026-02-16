@@ -21,7 +21,7 @@ export function HeroSection() {
       <div className="relative z-10 mx-auto max-w-5xl px-4 text-center">
         <div className="mb-8 flex justify-center">
           <Image
-            src="/images/hb.png"
+            src="/images/hydb.png"
             alt="Proper Hyderabadis Logo"
             width={220}
             height={220}
