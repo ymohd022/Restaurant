@@ -63,7 +63,7 @@ export function ContactSection() {
           </div>
 
           <a
-            href="https://wa.me/0432917935"
+            href="https://wa.me/+610411660507"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center gap-4 rounded-sm border border-border/50 bg-card p-8 text-center transition-all duration-500 hover:border-primary/30 hover:shadow-[0_0_30px_rgba(201,160,60,0.1)]"
