@@ -51,7 +51,7 @@ export function Footer() {
           <div className="h-px w-full max-w-sm ornament-border" />
 
           <p className="font-body text-xs text-muted-foreground">
-            {"© "}{new Date().getFullYear()} Proper Hyderabadis. All rights reserved.
+            {"© "}{new Date().getFullYear()} Proper Hyderabadis. All rights reserved. ABN: 44144736109
           </p>
                 <p className="text-muted-foreground text-xs text-center sm:text-left">
                 Designed & Developed by{' '}

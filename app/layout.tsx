@@ -48,6 +48,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${cormorant.variable} ${lato.variable}`}>
+      <head><link rel="icon" href="/images/hydb.png" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5472L375XM"></script>
+<script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-5472L375XM');
+            `,
+          }}
+        />
+      </head>
       <body className="font-body antialiased">{children}</body>
     </html>
   )
