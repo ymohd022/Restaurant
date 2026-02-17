@@ -45,22 +45,25 @@ export function ContactSection() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <a
-            href="tel:0411660507"
-            className="group flex flex-col items-center gap-4 rounded-sm border border-border/50 bg-card p-8 text-center transition-all duration-500 hover:border-primary/30 hover:shadow-[0_0_30px_rgba(201,160,60,0.1)]"
-          >
+          <div className="group flex flex-col items-center gap-4 rounded-sm border border-border/50 bg-card p-8 text-center transition-all duration-500 hover:border-primary/30 hover:shadow-[0_0_30px_rgba(201,160,60,0.1)]">
             <div className="flex h-14 w-14 items-center justify-center rounded-full border border-primary/30 bg-primary/10 transition-all duration-300 group-hover:bg-primary/20 group-hover:scale-110">
               <Phone className="h-6 w-6 text-primary" />
             </div>
             <div>
               <h3 className="font-sans text-lg font-bold text-foreground">Call Us</h3>
-              <p className="mt-1 font-body text-sm text-primary">0411 660 507</p>
-              <p className="font-body text-sm text-primary">0432 917 935</p>
+              <div className="mt-1 flex flex-col items-center">
+                <a href="tel:0411660507" className="font-body text-sm text-primary">
+                  0411 660 507
+                </a>
+                <a href="tel:0432917935" className="font-body text-sm text-primary mt-1">
+                  0432 917 935
+                </a>
+              </div>
             </div>
-          </a>
+          </div>
 
           <a
-            href="https://wa.me/61411660507"
+            href="https://wa.me/0432917935"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center gap-4 rounded-sm border border-border/50 bg-card p-8 text-center transition-all duration-500 hover:border-primary/30 hover:shadow-[0_0_30px_rgba(201,160,60,0.1)]"
@@ -76,7 +79,13 @@ export function ContactSection() {
             </div>
           </a>
 
-          <div className="group flex flex-col items-center gap-4 rounded-sm border border-border/50 bg-card p-8 text-center transition-all duration-500 hover:border-primary/30">
+          <a
+            href="https://www.google.com/maps?q=-37.696309,144.931513"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open location in Google Maps"
+            className="group flex flex-col items-center gap-4 rounded-sm border border-border/50 bg-card p-8 text-center transition-all duration-500 hover:border-primary/30"
+          >
             <div className="flex h-14 w-14 items-center justify-center rounded-full border border-primary/30 bg-primary/10 transition-all duration-300 group-hover:bg-primary/20 group-hover:scale-110">
               <MapPin className="h-6 w-6 text-primary" />
             </div>
@@ -85,7 +94,7 @@ export function ContactSection() {
               <p className="mt-1 font-body text-sm text-muted-foreground">54 View St</p>
               <p className="font-body text-sm text-muted-foreground">Glenroy VIC 3046</p>
             </div>
-          </div>
+          </a>
 
           <div className="group flex flex-col items-center gap-4 rounded-sm border border-border/50 bg-card p-8 text-center transition-all duration-500 hover:border-primary/30">
             <div className="flex h-14 w-14 items-center justify-center rounded-full border border-primary/30 bg-primary/10 transition-all duration-300 group-hover:bg-primary/20 group-hover:scale-110">
