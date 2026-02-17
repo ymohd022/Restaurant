@@ -58,7 +58,7 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="tel:0411660507"
+            href="tel:0432917935"
             className="flex items-center gap-2 rounded-sm border border-primary/40 bg-primary/10 px-4 py-2 text-sm font-semibold text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
           >
             <Phone className="h-4 w-4" />

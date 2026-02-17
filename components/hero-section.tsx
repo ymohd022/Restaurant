@@ -58,7 +58,7 @@ export function HeroSection() {
             Call Now
           </a>
           <a
-            href="https://wa.me/61411660507"
+            href="https://wa.me/0432917935"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-3 rounded-sm border border-primary/40 bg-primary/10 px-8 py-4 font-sans text-sm font-bold uppercase tracking-widest text-primary transition-all duration-300 hover:bg-primary/20 hover:border-primary/60"

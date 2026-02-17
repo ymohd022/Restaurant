@@ -57,7 +57,7 @@ export function ChefSection() {
 
             <div className="flex flex-col gap-6 max-w-lg">
               <div>
-                <h3 className="font-sans text-2xl font-bold text-foreground">Mohammed</h3>
+                <h3 className="font-sans text-2xl font-bold text-foreground">Mohammed Sirajuddin</h3>
                 <p className="font-body text-sm text-primary">Founder & Head Chef</p>
               </div>
 
