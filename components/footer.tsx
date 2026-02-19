@@ -50,7 +50,7 @@ export function Footer() {
 
           <div className="flex items-center gap-6">
             <a
-              href="https://www.instagram.com/properhyderabadis"
+              href="https://www.instagram.com/properhyderabadis?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 text-muted-foreground transition-colors duration-300 hover:text-primary"
@@ -67,7 +67,7 @@ export function Footer() {
               <span className="font-body text-sm">Instagram</span>
             </a>
             <a
-              href="https://www.facebook.com/properhyderabadis"
+              href="https://www.facebook.com/share/1CCDXbcp4j/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 text-muted-foreground transition-colors duration-300 hover:text-primary"
