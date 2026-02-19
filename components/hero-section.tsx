@@ -83,13 +83,6 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float">
-        <div className="flex flex-col items-center gap-2 text-muted-foreground">
-          <span className="font-body text-xs uppercase tracking-widest">Scroll</span>
-          <div className="h-8 w-px bg-gradient-to-b from-primary/60 to-transparent" />
-        </div>
-      </div>
     </section>
   )
 }
